@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Auction</title>
+  <style>
+    
+}
+
+
+    h1{ 
+        color:black;
+        font-family:"helvetica neue",Arial,sans-serif,serif; 
+        
+      }
+    
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: white;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+
+
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+
+    
+    h2{
+       color:white;
+       font-family: "helvetica neue",Arial,sans-serif,serif;
+       background:grey;
+       background-size: 15%
+      }
+
+    h2:hover{
+       color:black; 
+    }    
+    p{
+      color: black;
+      
+      font-family:"serif",Arial,sans-serif;
+      font-size: 20px; 
+    }
+  
+
+           #myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+
+
+.column {
+  
+  width: 33.3%;
+  margin-bottom: 30px;
+  margin-top: 25px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+  text-align: center;
+}
+
+.container::after, .row::after {
+  
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+  
+
+
+/* Style inputs */
+
+
+
+</style>
+</head>
+<body>
+     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+     
+<bold><center><h1><u>ABOUT US</u></h1></center></bold>
+  <div class="topnav">
+    <a href="index.html">HOME |</a>
+    <a href="players.html">PLAYERS |</a>
+    <a href="login.html">LOGIN |</a>
+    <a href="aboutus.html">ABOUT US |</a>
+  </div> 
+
+  <center><h3 style="color: black;font-size: 30px;margin-top: 20px;">Our Team </h3></center>  
+
+
+    <center><div class="column">
+    <center><div class="card">
+      <img src="uj.jpg" alt="uj" style="width:50%;height: 250px;border-radius: 100%;border:4px solid grey;">
+      <center><div class="container">
+        <h2>Ushmit Lodha</h2>
+        <p class="title">CEO</p>
+        <p>My first website.The Auctionists.</p>
+        <p>ushmitjain916@gmail.com</p>
+        <p><button class="button"><a href="contact.html" target="_blank" style="color: white;font-size: 15px;" >Contact</a></button></p>
+      </div></center>
+    </div></center>
+  </div></center>
+
+  
+
+
+  
+
+
+
+
+  <script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+ 
+</body>
+</html>
+
+                               

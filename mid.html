@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Auction</title>
+  <style>
+  	h1{
+
+  	}
+
+  	.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: white;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+   
+   h2{
+    display: block;
+    color:white;
+    font-family: "helvetica neue",Arial,sans-serif,serif;
+    background:grey;
+    background-size: 15%
+
+  }
+
+     table, th, td {
+  border-bottom: : 1px solid black;
+  border-collapse: collapse;
+
+}
+   th, td {
+  padding: 15px;
+}
+   th {
+  text-align: left;
+ }
+   td{
+     text-align: left;
+     font-size: 20px;
+     font-family: "helvetica neue",Arial,sans-serif,serif;
+
+   }
+   table {
+  border-spacing: 5px;
+}
+     tr:nth-child(even) {
+  background-color:white;
+}
+   tr:nth-child(odd) {
+  background-color:#E5E8E8;
+}
+   th {
+  color: white;
+  background-color: black;
+}
+
+      #myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+
+  	
+  </style>
+</head>
+<body>
+     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+     
+	<center><h1>MIDFIELDERS</h1></center>
+	<div class="topnav">
+    <a href="index.html">HOME |</a>
+    <a href="attack.html">ATTACKERS |</a>
+    <a href="mid.html">MIDFIELDERS |</a>
+    <a href="def.html">DEFENDERS |</a>
+    
+  </div>
+   
+  <CENTER> <section>
+     <center><h2>ATTACKING MIDFIELDERS(AM)</h2></center>
+     <IMG SRC="https://i.pinimg.com/236x/a3/3b/fe/a33bfec661686df4078111dc49b56678.jpg" ALT="OZIL" STYLE="width:15%;height:250px" >
+     <table style="width: 80%">
+
+      <tr>
+        <th>SR.NO</th>
+        <TH>PLAYERS</TH>
+        <TH>RATING</TH>
+        <TH>AGE</TH>
+        <TH>CLUB</TH>
+      </tr>
+      <tr>
+            <td>1)</td>/
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/192985.webp" ALT="bruyne">Kevin De Bruyne </TD>
+            <TD>91 &#9650;</TD>
+            <TD>28</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/10.webp" ALT="city"></TD>
+         </tr>
+
+
+      <tr>
+            <td>2)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/168542.webp" ALT="silva">David Silva</TD>
+            <TD>90 &#9650;</TD>
+            <TD>33</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/10.webp" ALT="city"></TD>
+         </tr>
+
+         
+         <tr>
+            <td>3)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/195864.webp" ALT="pogba">Paul Pogba</TD>
+            <TD>88 &#9650;</TD>
+            <TD>26</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/11.webp" ALT="united"></TD>
+         </tr>
+
+         <tr>
+            <td>4)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/190460.webp" ALT="eriksen">Christian Eriksen</TD>
+            <TD>88 &#9650;</TD>
+            <TD>27</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/18.webp" ALT="spurs"></TD>
+         </tr>
+
+         <tr>
+            <td>5)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/188350.webp" ALT="reus">Marco Reus</TD>
+            <TD>88 &#9650;</TD>
+            <TD>30</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/22.webp" ALT="bvb"></TD>
+         </tr>
+
+         <tr>
+            <td>6)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/189509.webp" ALT="thiago">Thiago Alcantra</TD>
+            <TD>87 &#9650;</TD>
+            <TD>28</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/21.webp" ALT="bayern"></TD>
+         </tr>
+
+         <tr>
+            <td>7)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/218667.webp" ALT="b.silva">Bernando Silva</TD>
+            <TD>86 &#9650;</TD>
+            <TD>25</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/10.webp" ALT="city"></TD>
+         </tr>
+
+         <tr>
+            <td>8)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/189596.webp" ALT="muller">Thomas Muller</TD>
+            <TD>86&#9650;</TD>
+            <TD>29</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/21.webp" ALT="bayern"></TD>
+         </tr>
+
+         <tr>
+            <td>9)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/212198.webp" ALT="bruno">Bruno Fernandes</TD>
+            <TD>85 &#9650;</TD>
+            <TD>25</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/237.webp" ALT="scp"></TD>
+         </tr>
+
+         <tr>
+            <td>10)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/211117.webp" ALT="alli">Dele Alli</TD>
+            <TD>85 &#9650;</TD>
+            <TD>23</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/18.webp" ALT="spurs"></TD>
+         </tr>
+
+         <tr>
+            <td>11)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/178518.webp" ALT="Naingglon">Rajda Naingglon</TD>
+            <TD>85 &#9650;</TD>
+            <TD>31</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/44.webp" ALT="milan"></TD>
+         </tr>
+
+         <tr>
+            <td>12)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/176635.webp" ALT="ozil">Mezut Ozil</TD>
+            <TD>85 &#9650;</TD>
+            <TD>30</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/1.webp" ALT="arsenal"></TD>
+         </tr>
+
+         <tr>
+            <td>13)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/216594.webp" ALT="Fekir">Nabil Fekir</TD>
+            <TD>84 &#9650;</TD>
+            <TD>27</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/66.webp" ALT="lyon"></TD>
+         </tr>
+
+         <tr>
+            <td>14)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/199434.webp" ALT="tadic">Dusan Tadic</TD>
+            <TD>84 &#9650;</TD>
+            <TD>30</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/245.webp" ALT="ajax"></TD>
+         </tr>
+
+         <tr>
+            <td>15)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/187961.webp" ALT="paulinho">Paulinho</TD>
+            <TD>84 &#9650;</TD>
+            <TD>31</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/111839.webp" ALT="shangai"></TD>
+         </tr>
+
+         <tr>
+            <td>16)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/178562.webp" ALT="banega">Ever Banega</TD>
+            <TD>84&#9650;</TD>
+            <TD>31</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/481.webp" ALT="sevilla"></TD>
+         </tr>
+
+         <tr>
+            <td>17)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/171877.webp" ALT="hamsik">Marek Hamsik</TD>
+            <TD>84 &#9650;</TD>
+            <TD>32</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/112378.webp" ALT="dalian"></TD>
+         </tr>
+
+         <tr>
+            <td>18)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/143076.webp" ALT="gomez">Alejandro Gomez</TD>
+            <TD>84 &#9650;</TD>
+            <TD>31</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/39.webp" ALT="atlanta"></TD>
+         </tr>
+
+         <tr>
+            <td>19)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/235790.webp" ALT="havertz">Kai Havertz</TD>
+            <TD>83&#9650;</TD>
+            <TD>20</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/32.webp" ALT="leverkusen"></TD>
+         </tr>
+
+         <tr>
+            <td>20)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/230658.webp" ALT="arthur">Arthur</TD>
+            <TD>83 &#9650;</TD>
+            <TD>23</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/241.webp" ALT="barca"></TD>
+         </tr>
+         
+      </table>
+
+   </section></CENTER>
+
+   <CENTER><section>
+     <center><h2>MIDFIELDERS(CM,LM,RM)</h2></center>
+     <IMG SRC="https://i.pinimg.com/236x/97/8a/32/978a32cf92be07d18adde8aaf3105bb9.jpg" ALT="INIESTA" STYLE="width:15%;height:250px" >
+     <table style="width: 80%">
+
+      <tr>
+        <th>SR.NO</th>
+        <TH>PLAYERS</TH>
+        <TH>RATING</TH>
+        <TH>AGE</TH>
+        <TH>CLUB</TH>
+      </tr>
+
+      <tr>
+            <td>1)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/177003.webp" ALT="modric">Luka Modric</TD>
+            <TD>91 &#9650;</TD>
+            <TD>34</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/243.webp" ALT="madrid"></TD>
+         </tr>
+
+         <tr>
+            <td>2)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/182521.webp" ALT="kross">Toni Kross</TD>
+            <TD>89&#9650;</TD>
+            <TD>29</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/243.webp" ALT="madrid"></TD>
+         </tr>
+
+         <tr>
+            <td>3)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/198710.webp" ALT="rodriguez">James Rodriguez</TD>
+            <TD>87 &#9650;</TD>
+            <TD>28</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/21.webp" ALT="bayern"></TD>
+         </tr>
+
+         <tr>
+            <td>4)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/197781.webp" ALT="isco">Isco</TD>
+            <TD>87 &#9650;</TD>
+            <TD>27</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/243.webp" ALT="madrid"></TD>
+         </tr>
+
+         <tr>
+            <td>5)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/168651.webp" ALT="rakitic">Ivan Rakitic</TD>
+            <TD>87 &#9650;</TD>
+            <TD>31</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/241.webp" ALT="barca"></TD>
+         </tr>
+
+         <tr>
+            <td>6)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/199556.webp" ALT="verratti">Marco Verratti</TD>
+            <TD>86 &#9650;</TD>
+            <TD>26</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/73.webp" ALT="psg"></TD>
+         </tr>
+
+         <tr>
+            <td>7)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/223848.webp" ALT="savic">Sergej Milinkovic Savic</TD>
+            <TD>85 &#9650;</TD>
+            <TD>24</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/46.webp" ALT="lazio"></TD>
+         </tr>
+
+         <tr>
+            <td>8)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/208421.webp" ALT="SAul">Saul</TD>
+            <TD>85 &#9650;</TD>
+            <TD>24</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/240.webp" ALT="atm"></TD>
+         </tr>
+
+         <tr>
+            <td>9)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/193747.webp" ALT="koke">Koke</TD>
+            <TD>85 &#9650;</TD>
+            <TD>27</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/240.webp" ALT="atm"></TD>
+         </tr>
+
+         <tr>
+            <td>10)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/190483.webp" ALT="costa">Douglas Costa</TD>
+            <TD>85 &#9650;</TD>
+            <TD>28</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/45.webp" ALT="juve"></TD>
+         </tr>
+
+         <tr>
+            <td>11)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/189513.webp" ALT="parejo">Parejo</TD>
+            <TD>85 &#9650;</TD>
+            <TD>30</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/461.webp" ALT="valencia"></TD>
+         </tr>
+
+         <tr>
+            <td>12)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/184267.webp" ALT="brahimi">Yachine Brahimi</TD>
+            <TD>85 &#9650;</TD>
+            <TD>29</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/236.webp" ALT="porto"></TD>
+         </tr>
+
+         <tr>
+            <td>13)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/181458.webp" ALT="perisic">Ivan perisic</TD>
+            <TD>85 &#9650;</TD>
+            <TD>30</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/44.webp" ALT="milan"></TD>
+         </tr>
+
+         <tr>
+            <td>14)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/228702.webp" ALT="jong">Frenkie De jong</TD>
+            <TD>84 &#9650;</TD>
+            <TD>22</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/245.webp" ALT="ajax"></TD>
+         </tr>
+
+         <tr>
+            <td>15)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/205678.webp" ALT="visca">Edin Visca</TD>
+            <TD>84 &#9650;</TD>
+            <TD>29</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/101014.webp" ALT="medipol"></TD>
+         </tr>
+
+         <tr>
+            <td>16)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/204970.webp" ALT="thauvin">Florain Thauvin</TD>
+            <TD>84 &#9650;</TD>
+            <TD>26</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/219.webp" ALT="marsielle"></TD>
+         </tr>
+
+         <tr>
+            <td>17)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/201995.webp" ALT="felipe">Felipe Anderson</TD>
+            <TD>84 &#9650;</TD>
+            <TD>26</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/19.webp" ALT="westham"></TD>
+         </tr>
+
+         <tr>
+            <td>18)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/199914.webp" ALT="allan">Allan</TD>
+            <TD>84 &#9650;</TD>
+            <TD>28</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/48.webp" ALT="nap"></TD>
+         </tr>
+
+         <tr>
+            <td>19)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/197965.webp" ALT="pizzi">Pizzi</TD>
+            <TD>84 &#9650;</TD>
+            <TD>27</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/234.webp" ALT="benfica"></TD>
+         </tr>
+
+         <tr>
+            <td>20)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/193082.webp" ALT="cuadrado">Juan Cuodrado </TD>
+            <TD>84 &#9650;</TD>
+            <TD>31</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/45.webp" ALT="juve"></TD>
+         </tr>
+         
+      </table>
+
+   </section></CENTER>
+
+   <CENTER><section>
+     <center><h2>DEFENSIVE MIDFIELDERS(DM)</h2></center>
+     <IMG SRC="https://i.pinimg.com/236x/1a/17/e2/1a17e2006b6c55ee53a24305cfa9d24a.jpg" ALT="KANTE" STYLE="width:15%;height:250px">
+     <CENTER><table style="width: 80%">
+
+      <tr>
+        <th>SR.NO</th>
+        <TH>PLAYERS</TH>
+        <TH>RATING</TH>
+        <TH>AGE</TH>
+        <TH>CLUB</TH>
+      </tr>
+
+      <tr>
+            <td>1)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/215914.webp" ALT="kante">N'golo Kante</TD>
+            <TD>89 &#9650;</TD>
+            <TD>28</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/5.webp" ALT="chelsea"></TD>
+         </tr>
+
+         <tr>
+            <td>2)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/189511.webp" ALT="sergio">Sergio Busquets</TD>
+            <TD>89 &#9650;</TD>
+            <TD>31</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/241.webp" ALT="barca"></TD>
+         </tr>
+
+         <tr>
+            <td>3)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/200145.webp" ALT="casemiro">Casemiro</TD>
+            <TD>87 &#9650;</TD>
+            <TD>27</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/243.webp" ALT="madrid"></TD>
+         </tr>
+
+         <tr>
+            <td>4)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/135507.webp" ALT="fernandino">Fernandino</TD>
+            <TD>87 &#9650;</TD>
+            <TD>34</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/10.webp" ALT="city"></TD>
+         </tr>
+
+         <tr>
+            <td>5)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/180206.webp" ALT="pjanic">Miralem Pjanic</TD>
+            <TD>86&#9650;</TD>
+            <TD>29</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/45.webp" ALT="juve"></TD>
+         </tr>
+
+         <tr>
+            <td>6)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/209499.webp" ALT="fabinho">Fabinho</TD>
+            <TD>85 &#9650;</TD>
+            <TD>25</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/9.webp" ALT="liverpool"></TD>
+         </tr>
+
+         <tr>
+            <td>7)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/181872.webp" ALT="vidal">Arturo Vidal</TD>
+            <TD>85 &#9650;</TD>
+            <TD>32</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/241.webp" ALT="barca"></TD>
+         </tr>
+
+         <tr>
+            <td>8)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/177413.webp" ALT="witsel">Axel Witsel</TD>
+            <TD>85 &#9650;</TD>
+            <TD>30</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/22.webp" ALT="bvb"></TD>
+         </tr>
+
+         <tr>
+            <td>9)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/170890.webp" ALT="matuidi">Blaise Matuidi</TD>
+            <TD>85 &#9650;</TD>
+            <TD>32</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/45.webp" ALT="juve"></TD>
+         </tr>
+
+         <tr>
+            <td>10)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/209658.webp" ALT="Leon">Leon Goretzka</TD>
+            <TD>84 &#9650;</TD>
+            <TD>24</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/21.webp" ALT="bayern"></TD>
+         </tr>
+
+         <tr>
+            <td>11)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/190584.webp" ALT="illarramendi">Illarramendi</TD>
+            <TD>84 &#9650;</TD>
+            <TD>29</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/457.webp" ALT="sociedad"></TD>
+         </tr>
+
+         <tr>
+            <td>12)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/186942.webp" ALT="iikay">Iikay Gundogan</TD>
+            <TD>84 &#9650;</TD>
+            <TD>28</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/10.webp" ALT="city"></TD>
+         </tr>
+
+         <tr>
+            <td>13)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/179846.webp" ALT="semi ">Semi Khedira</TD>
+            <TD>84 &#9650;</TD>
+            <TD>32</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/45.webp" ALT="juve"></TD>
+         </tr>
+
+         <tr>
+            <td>14)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/176266.webp" ALT="lucas">Lucas Leiva</TD>
+            <TD>84&#9650;</TD>
+            <TD>32</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/46.webp" ALT="lazio"></TD>
+         </tr>
+
+         <tr>
+            <td>15)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/231866.webp" ALT="rodri">Rodri</TD>
+            <TD>83 &#9650;</TD>
+            <TD>23</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/240.webp" ALT="atm"></TD>
+         </tr>
+
+         <tr>
+            <td>16)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/220971.webp" ALT="naby">Naby keita</TD>
+            <TD>83 &#9650;</TD>
+            <TD>24</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/9.webp" ALT="liverpool"></TD>
+         </tr>
+
+         <tr>
+            <td>17)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/219683.webp" ALT="tolisso">Corentin Tolisso</TD>
+            <TD>83 &#9650;</TD>
+            <TD>25</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/21.webp" ALT="bayern"></TD>
+         </tr>
+
+         <tr>
+            <td>18)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/210008.webp" ALT="rabiot">Adrian Rabiot</TD>
+            <TD>83 &#9650;</TD>
+            <TD>24</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/73.webp" ALT="psg"></TD>
+         </tr>
+
+         <tr>
+            <td>19)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/200888.webp" ALT="danilo">Danilo Pereira</TD>
+            <TD>83 &#9650;</TD>
+            <TD>28</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/236.webp" ALT="porto"></TD>
+         </tr>
+
+         <tr>
+            <td>20)</td>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/players/5/191202.webp" ALT="matic">Nemanja Matic</TD>
+            <TD>83 &#9650;</TD>
+            <TD>31</TD>
+            <TD><IMG SRC="https://www.fifaindex.com/static/FIFA19/images/crest/3/light/11.webp" ALT="united"></TD>
+         </tr>
+         
+      </table>
+
+   </section></CENTER>
+
+   <script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+</body>
+</html>
